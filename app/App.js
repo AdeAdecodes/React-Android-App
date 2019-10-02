@@ -32,7 +32,9 @@ export default class PizzaTranslator extends Component {
     });
     return (
       <View style={styles.container}>
+             <Text>My Application</Text>
         <View style={styles.inputContainer}>
+   
         <TextInput
           placeholder=" An Awesome place"
           onChangeText={this.placeNameChangedHandler}
